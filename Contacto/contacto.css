@@ -36,7 +36,25 @@ padding-top: 13px;
 
   .nte {
       display: flex;
-      flex-direction: column; 
+      flex-direction: column;
+      padding-bottom: 20px;
+  }
+ 
+  .grilla{
+    padding: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .nte {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      padding-bottom: 20px;
           
   }
+ 
+  
+  
+   }     
+  
   

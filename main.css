@@ -110,7 +110,11 @@ main {background-color: rgb(0, 0, 0);
 }
 .spotify {
   padding-bottom: 20px;
+ 
 }
+
+
+
 
 .contenedor2 {
 padding-left: 20px;
@@ -160,6 +164,26 @@ footer {
 .linked {padding: 10px;}
 
 .behance {padding: 10px;}
+
+
+@media screen and (min-width: 768px) {
+  .contenedor1{
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-column-gap: 20px;
+
+  }
+  
+.contenedor3{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 20px;
+}
+
+.contenedor45{
+  display: grid;
+grid-template-columns: 2fr 1fr;}
+    }
 
 /* @media screen {
 
