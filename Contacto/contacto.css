@@ -1,0 +1,42 @@
+/* navegador */
+
+nav{background-color: black;}
+
+.logo {
+  position: fixed;
+  padding: 20px;
+  padding-left: 2%;
+  z-index: 2;
+
+ }
+.fondoheader{
+z-index: 1;
+  opacity: 50%;
+position: fixed;}
+
+.menu{
+padding-top: 13px;
+
+}
+
+  
+
+  /* main */
+
+  main {
+    padding-top: 3%;  
+    background-color: black;}
+
+    .titulo {
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 5%;    
+        text-align: center;
+}
+
+  .nte {
+      display: flex;
+      flex-direction: column; 
+          
+  }
+  
